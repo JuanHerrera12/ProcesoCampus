@@ -132,14 +132,14 @@ def listarProductos(lstProducto):
                 
 
 
-# def estrategiaMercadeo(lstProducto):
-#     for i in range (0, N+1 ):
-#         for j in range (i+1, N):
-#             if lstProducto[i] > lstProducto[j]:
-#                 t = lstProducto[i]
-#                 lstProducto[i] = lstProducto[j]
-#                 lstProducto[j] = t
-#     return lstProducto            
+#  def estrategiaMercadeo(lstProducto):
+#      for i in range (len(lstProducto)): 
+#          for j in range (i+1):
+#              if lstProducto[i] > lstProducto[j]:
+#                  t = lstProducto[i]
+#                  lstProducto[i] = lstProducto[j]
+#                  lstProducto[j] = t
+#      return lstProducto            
     
        
 
